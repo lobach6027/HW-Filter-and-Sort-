@@ -1,0 +1,43 @@
+.card {
+  display: flex;
+  height: 120px;
+  background-color: #34495e;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 60px;
+  width: 60%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.title{
+    width: 40%; 
+    color:white;
+    font-size: 25px;  
+}
+.price_container {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price {
+  color: #a2a2a2;
+  font-size: 25px;
+  text-decoration: line-through;
+  font-weight: 400;
+}
+.newPrice{
+    color:#FFA3A3;
+    font-size: 25px;
+    font-weight: 400;
+}
+.price_title{
+    color:white;
+    font-size: 25px;
+    font-weight: 400; 
+}
+.full_price{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

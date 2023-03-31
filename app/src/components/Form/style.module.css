@@ -1,0 +1,28 @@
+.wrapper{
+    margin:100px  auto;
+    max-width: 600px;
+    height: 450px;
+    background-color: #34495E;
+    padding: 80px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+form input{
+    padding:10px;
+    font-size:25px ;
+    background-color: #D9D9D9;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+ 
+}
+.addConfirm{
+    background-color: #27AE60;
+    color: white;
+    font-family: 'Inter', sans-serif;
+  
+}
